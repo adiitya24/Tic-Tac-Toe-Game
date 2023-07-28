@@ -46,7 +46,7 @@ document.querySelector('.img-box').getElementsByTagName('img')[0].style.width="2
 }
 
 //game logic
-//music.play();
+music.play();
 let boxes=document.getElementsByClassName("box");
 Array.from(boxes).forEach(element=>{
     let boxtext=element.querySelector('.boxtext');
